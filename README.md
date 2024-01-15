@@ -5,6 +5,6 @@ Made to connect with clients and the companies
 
 Developing Using React JS
 
-## Screenshot
+### Screenshot
 # Login
 <img src="https://github.com/adhilshan/FrozFlow/blob/main/screenshots/Capture.PNG?raw=true" alt="" style="width:100vw; height:auto; object-fit:contain;">
