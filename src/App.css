@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap');
+
+:root{
+  --primary-color:#2196F3;
+  --background-primary:rgb(195, 0, 255);
+  --background-secondary:#FEFEFE;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #02021C;
+  }
+  
+  .App {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  motion.div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.decoration {
+    text-decoration: underline;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.light-100 {
+    font-weight: 100;
+}
+
+.light-300 {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 800;
+}
+.line-no-gap{
+    line-height: 130%;
+}
+.size-small{
+    font-size: 1rem;
+}
+.size-mid{
+    font-size: 1rem;
+}
+.size-large{
+    font-size: 2rem;
+}
+.size-larger{
+    font-size: 3rem;
+}
+.size-extra-large{
+    font-size: 4rem;
+}
+
+.smooth {
+    transition: all 0.3s ease-in;
+}
+.no-zone{
+    padding: 0;
+    margin: 0;
+}
+
+.thin-scroller::-webkit-scrollbar {
+    width: 5px;
+}
+
+.thin-scroller::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+    /* White color with 0.3 opacity */
+}
+
+.thin-scroller::-webkit-scrollbar-thumb {
+    background: white;
+    /* White color for the scrollbar handle */
+}
+.no-scroller{
+    overflow: hidden;
+}
+@media screen and (max-height:600px) {
+    .no-scroller{
+        overflow-y: scroll;
+    }
+    .container{
+        height: fit-content !important;
+    }
+}
+input[type=text],input[type=password],input[type=email],input[type=tel],input[type=number]{
+    outline: none;
+    padding: 12px 25px;
+    font-size: 14px;
+    max-width: 500px;
+}
